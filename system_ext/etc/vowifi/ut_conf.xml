@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+       <operator spn="Etisalat AE" mcc="424" mnc="{002}" utSupport="false" bsfServerPort="8088" />
+</AccountSettings>

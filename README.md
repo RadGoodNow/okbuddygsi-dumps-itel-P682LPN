@@ -1,0 +1,20 @@
+## P682LPN-user 11 RP1A.201005.001 63 release-keys
+- Manufacturer: itel
+- Platform: ums9230
+- Codename: itel-P682LPN
+- Brand: Itel
+- Flavor: P682LPN-user
+- Release Version: 11
+- Kernel Version: 4.14.199
+- Id: RP1A.201005.001
+- Incremental: RU-V014-20220418
+- Tags: release-keys
+- CPU Abilist: arm64-v8a,armeabi-v7a,armeabi
+- A/B Device: true
+- Treble Device: true
+- Locale: ru-RU
+- Screen Density: undefined
+- Fingerprint: Itel/F062/itel-P682LPN:11/RP1A.201005.001/RU-V014-20220418:user/release-keys
+- OTA version: 
+- Branch: P682LPN-user-11-RP1A.201005.001-63-release-keys
+- Repo: itel/itel-P682LPN
