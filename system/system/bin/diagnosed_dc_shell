@@ -1,0 +1,12 @@
+#!/system/bin/sh
+
+CMD="$1"
+
+
+if [ "$CMD" = "clean_dc" ]; then
+    setprop clt.stop zygote_secondary
+    setprop clt.stop zygote
+    rm -rf /data/dalvik-cache/*
+    log -p  i -t Diagnosed "Clean dalvik cache and reboot"
+    setprop sys.powerctl reboot
+fi

@@ -1,0 +1,13 @@
+
+on post-fs-data
+   mkdir /data/diagnosed/ 0755 system system
+   restorecon /data/diagnosed
+
+service diagnosed /system/bin/diagnosed
+    class core
+    user system
+    group system
+    socket diagnosed stream 666 system system
+
+on property:sys.diagnosed.clean_dc=1
+    exec - root -- /system/bin/diagnosed_dc_shell clean_dc

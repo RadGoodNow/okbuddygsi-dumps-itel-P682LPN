@@ -1,0 +1,3 @@
+# See https://android.googlesource.com/platform/ndk/+/master/docs/PlatformApis.md
+libonekeyclean_jni.itel.so
+libcpuutils_jni.itel.so

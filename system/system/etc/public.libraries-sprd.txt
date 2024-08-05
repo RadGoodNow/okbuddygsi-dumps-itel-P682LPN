@@ -1,0 +1,2 @@
+# system sprd public libraries
+libPowerStretch.sprd.so

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AccountSettings>
+    <operator spn="Vodacom UA" mcc="655" mnc="{001}" withAccessType="true" ringbackTimer="120"
+        preconditionEnabled="true" realmType="impi" />
+</AccountSettings>

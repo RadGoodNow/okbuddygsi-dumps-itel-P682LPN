@@ -1,0 +1,12 @@
+on post-fs-data
+   mkdir /data/smartsystem 0777 system system
+   restorecon /data/smartsystem
+   
+   mkdir /data/smartsystem/dataEngine 0777 system system
+   restorecon /data/smartsystem/dataEngine
+   
+   mkdir /data/smartsystem/performance 0777 system system
+   restorecon /data/smartsystem/performance
+   
+   mkdir /data/smartsystem/power 0777 system system
+   restorecon /data/smartsystem/power

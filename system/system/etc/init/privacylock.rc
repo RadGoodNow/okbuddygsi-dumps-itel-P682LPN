@@ -1,0 +1,15 @@
+# ITEL: [SYS][SR] privacylock,IB-18640462
+# Add for private Gallery change permission
+on property:persist.privacy.permission=0
+    chmod 0770 user_id_for_privacy
+
+on property:persist.privacy.permission=1
+    chmod 0000 user_id_for_privacy
+
+on property:persist.privacy.permission=2
+    chmod 0000 user_id_for_privacy
+#ITEL_SYSTEM_IB_40462_khx modify password path ,2019-1-10
+on post-fs-data
+   mkdir /data/privacylock 0700 system system
+   restorecon /data/privacylock
+

@@ -1,0 +1,4 @@
+# ITEL_SYSTEM_IB-40462-khx add for co-version 
+on boot
+    chmod 0664 /dev/transsion_cover
+
